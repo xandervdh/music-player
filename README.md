@@ -1,24 +1,18 @@
 # music_app
 
+##A music app made with vue.js
+
 ## Project setup
 ```
 npm install
 ```
+add song files in the assets file.
 
-### Compiles and hot-reloads for development
+change the script in App.vue. Add the songs in the data like this
 ```
-npm run serve
+{
+title: 'The Atac',
+artist: 'DJ Dione',
+src: require('./assets/1.mp3')
+},
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
